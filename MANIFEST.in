@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nammakadai *.css
+recursive-include nammakadai *.csv
+recursive-include nammakadai *.html
+recursive-include nammakadai *.ico
+recursive-include nammakadai *.js
+recursive-include nammakadai *.json
+recursive-include nammakadai *.md
+recursive-include nammakadai *.png
+recursive-include nammakadai *.py
+recursive-include nammakadai *.svg
+recursive-include nammakadai *.txt
+recursive-exclude nammakadai *.pyc
